@@ -1,19 +1,8 @@
 import { useState } from 'react';
-import { Clock } from './klokke';
 import Header from "./Header.js"
 import Footer from './Footer.js';
-
-function Square({ value, onSquareClick }) {
-  return (
-    <button style={{ color: value === "X"? "blue" : "red" }} className="square" onClick={onSquareClick}>
-      {value}
-    </button>
-  );
-}
-
-//Heisann..!
-//Bø!!
-
+import Square from './Square.js';
+import calculateWinner from './calculateWinner.js';
 
 
 function Board({ xIsNext, squares, onPlay, playerNames }) {
@@ -34,13 +23,12 @@ function Board({ xIsNext, squares, onPlay, playerNames }) {
     return board.every(cell => cell !== null);
   };
 
-  const winner = calculateWinner(squares);
+  const winner = squares ? calculateWinner(squares) : null; 
   let status;
   if (winner) {
-    status = 'Vinner: ' + (winner === 'W' ? playerNames[0] : playerNames[1]);
+    status = 'Vinner: ' + (winner === 'X' ? playerNames[0] : playerNames[1]);
   } else if (isBoardFull(squares)) {
-    status = "Uavgjort"
-
+    status = "Uavgjort";
   } else {
     status = 'Neste spiller: ' + (xIsNext ? playerNames[0] : playerNames[1]);
   }
@@ -66,6 +54,7 @@ function Board({ xIsNext, squares, onPlay, playerNames }) {
     </>
   );
 }
+
 
 export default function Game() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
@@ -101,7 +90,6 @@ export default function Game() {
       </li>
     );
   });
-  
 
   return (
     
@@ -121,25 +109,4 @@ export default function Game() {
     </div>
   );
 }
-
-function calculateWinner(squares) {
-  const lines = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6],
-  ];
-  for (let i = 0; i < lines.length; i++) {
-    const [a, b, c] = lines[i];
-    if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-      return squares[a];
-    }
-  }
-  return null;
-}
-
 

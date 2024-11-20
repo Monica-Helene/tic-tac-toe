@@ -1,11 +1,11 @@
 import React from 'react';
 import { Clock } from './klokke';
-import'./Header';
+import "./Footer.css"
 
 function Footer() {
   return (
     <footer className="footer">
-        <span class="footer-text">dhardha sd srh a dbareb arer</span>
+        <span class="footer-text">2024, Monica Helene Nordvik Udø</span>
          <div id="clock">
         <Clock/> 
       </div>
