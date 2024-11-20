@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Clock } from './klokke';
-
+import Header from "./Header.js"
+import Footer from './Footer.js';
 
 function Square({ value, onSquareClick }) {
   return (
@@ -11,7 +12,7 @@ function Square({ value, onSquareClick }) {
 }
 
 //Heisann..!
-//Bø!
+//Bø!!
 
 
 
@@ -105,7 +106,8 @@ export default function Game() {
   return (
     
      <div>
-       <div className='Clock'> <Clock />
+      <Header />
+       <div>
         </div>
          <div className="game">
            <div className="game-board">
@@ -115,6 +117,7 @@ export default function Game() {
             <li>{moves}</li> 
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
