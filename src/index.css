@@ -1,17 +1,14 @@
 
   body {
-    
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     text-align: center;
     max-height: fit-content;
     background-color: rgb(255, 255, 255);
     margin: 0;
-    
   }
   
   .square {
-    
     background: #f5f2f2;
     border: 1px solid #413d41;
     float: right;
@@ -40,18 +37,11 @@
 
   .game {
     display: inline-flex;
-    padding-top: 10px;
+    padding-top: 70px;
     align-items: left;
     flex-direction: row;
   }
   
-  .game-info {
-    margin-left: 30px;
-    padding-top: 20px;
-    list-style-type: none;
-
- }
-
  .movebutton
  {
     color: rgb(42, 39, 39);
