@@ -1,9 +1,8 @@
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client";
 import "./index.css";
-import Game from './App';
-const container = document.getElementById('root');
+import Game from "./App";
+const container = document.getElementById("root");
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<Game/>);
+root.render(<Game />);
 
-<meta charset="UTF-8"></meta>
-
+<meta charset="UTF-8"></meta>;
