@@ -5,7 +5,7 @@ import MovesList from "./MovesList.js";
 export default function Game() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
-  const [playerNames, setPlayerNames] = useState(() => {
+  const [playerNames] = useState(() => {
     const player1 = prompt("Navn på spiller 1:");
     const player2 = prompt("Navn på spiller 2:");
     return [player1 || "Spiller 1", player2 || "Spiller 2"];

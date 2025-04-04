@@ -1,4 +1,3 @@
-import "./Square";
 import "./index.css";
 
 function calculateWinner(squares) {

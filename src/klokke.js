@@ -8,7 +8,7 @@ export function Clock() {
   }
 
   setInterval(() => {
-    settime(new Date().toLocaleTimeString("nb-NO"));
+    settime(GetTime());
   }, 1000);
 
   return <p>{time}</p>;
