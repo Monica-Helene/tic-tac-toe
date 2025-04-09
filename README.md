@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Tic-tac-toe i React
+
+<details>
+    <summary><strong>Table og Contents</strong></summary>
+
+    - [Beskrivelse](#beskrivelse)
+    
+
+
+## Beskrivelse
+Denne applikasjonen er et klassisk Tic-Tac-Toe-spill, hvor to spillere kan spille det velkjente kryss- og sirkelspillet. Spillet består av et 3x3 rutenett hvor spillerne turer om å plassere henholdsvis et kryss (X) eller en sirkel (O) i ledige ruter. Målet er å få tre av sine symboler på rad, enten horisontalt, vertikalt eller diagonalt.
+
+### Hovedfunksjoner
+1. Spillere skriver inn navn de vil spille under.
+2. Visning av vinner når en spiller har fått 3 på rad eller uavgjort ved spill der ingen vinnner.
+3. Mulighet for å starte spillet på nytt etter at spillet er ferdig.
+
+### Underoverskrift som sier noe fornuftig.
+- React: Her kommer noen veldig gode grunner - lover. Jeg skla bare finne ut av hva de gode grunnene er selv først.
+- CSS: For å style applikasjonen og gjøre den brukervennlig og visuelt tiltalende.
+- JavaScript: For den generelle logikken bak spillmekanikken, som å sjekke om noen har vunnet, bytte mellom spillerne og oppdatere tilstanden.
+- Vitest: Per nå, test av funksjonen "calculateWinner".
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +92,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Udemy
