@@ -1,13 +1,11 @@
 # Tic-tac-toe i React
 
 <details>
-    <summary><strong>Table og Contents</strong></summary>
-
-    - [Beskrivelse](#beskrivelse)
-    
+    <summary><strong>Table of Contents</strong></summary>
+    <ul>
+        <li><a href="#beskrivelse">Beskrivelse</a></li>
+    </ul>
 </details>
-
-<br />
 
 
 
