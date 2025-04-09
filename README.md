@@ -4,32 +4,30 @@
     <summary><strong>Table of Contents</strong></summary>
     <ul>
         <li><a href="#beskrivelse">Beskrivelse</a></li>
+            <ul>
+            <li><a href="#hovedfunksjoner">Hovedfunksjoner</a></li>
+            <li><a href="#valg-av-verktøy">Valg av verktøy</a></li>
+            </ul>
+        <li><a href="#installasjon-og-kjøring-av-programmet">Installasjon og kjøring av programmet</a></li>
     </ul>
 </details>
-
-
 
 ## Beskrivelse
 Denne applikasjonen er et klassisk Tic-Tac-Toe-spill, hvor to spillere kan spille det velkjente kryss- og sirkelspillet. Spillet består av et 3x3 rutenett hvor spillerne turer om å plassere henholdsvis et kryss (X) eller en sirkel (O) i ledige ruter. Målet er å få tre av sine symboler på rad, enten horisontalt, vertikalt eller diagonalt.
 
 ### Hovedfunksjoner
 1. Spillere skriver inn navn de vil spille under.
-2. Visning av vinner når en spiller har fått 3 på rad eller uavgjort ved spill der ingen vinnner.
+2. Visning av vinner når en spiller har fått 3 på rad eller uavgjort ved spill der ingen vinner.
 3. Mulighet for å starte spillet på nytt etter at spillet er ferdig.
 
-### Underoverskrift som sier noe fornuftig.
-- React: Her kommer noen veldig gode grunner - lover. Jeg skla bare finne ut av hva de gode grunnene er selv først.
+### Valg av verktøy
+- React: Kjører raskt og gjør appen effektiv, selv når den blir stor. Det er også et stort felleskap rundt React som gjør det lett å finne løsninger og hjelp på nettet.
 - CSS: For å style applikasjonen og gjøre den brukervennlig og visuelt tiltalende.
 - JavaScript: For den generelle logikken bak spillmekanikken, som å sjekke om noen har vunnet, bytte mellom spillerne og oppdatere tilstanden.
-- Vitest: Per nå, test av funksjonen "calculateWinner".
+- Vitest: Er raskere og lettere å konfigurere enn mange andre testverktøy.
 
 
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+## Installasjon og kjøring av programmet
 In the project directory, you can run:
 
 ### `npm start`
