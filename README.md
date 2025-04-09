@@ -9,6 +9,11 @@
             <li><a href="#valg-av-verktøy">Valg av verktøy</a></li>
             </ul>
         <li><a href="#installasjon-og-kjøring-av-programmet">Installasjon og kjøring av programmet</a></li>
+            <ol>
+            <li><a href="#1-klon-prosjektet">Klon prosjektet</a></li>
+            <li><a href="#2-installer-nødvendige-verktøy">Installer nødvendige verktøy</a></li>
+            </ol>
+        <li><a href="#npm-test">rahth</a></li> 
     </ul>
 </details>
 
@@ -28,11 +33,11 @@ Denne applikasjonen er et klassisk Tic-Tac-Toe-spill, hvor to spillere kan spill
 
 
 ## Installasjon og kjøring av programmet
-1. Klon prosjektet
+ ### 1. Klon prosjektet
 Først må du klone prosjektet til din lokale maskin ved å bruke Git. Åpne terminalen og kjør følgende kommando:
 `git clone https://github.com/Monica-Helene/tic-tac-toe.git`
 
-2. Installer nødvendige verktøy <br/>
+### 2. Installer nødvendige verktøy <br/>
 Naviger til prosjektmappen i terminalen: <br/>
 Deretter, installer alle nødvendige avhengigheter ved å bruke npm: <br/>
 `npm install` <br/>
