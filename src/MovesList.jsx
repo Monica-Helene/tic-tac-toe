@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "../index.css";
 
 export default function MovesList({ history, jumpTo }) {
   const moves = history.map((squares, move) => {

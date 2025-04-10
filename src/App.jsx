@@ -1,6 +1,6 @@
-import Header from "./Header.js";
-import Footer from "./Footer.js";
-import Game from "./Game.js";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+import Game from "./Game.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {

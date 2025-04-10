@@ -1,5 +1,4 @@
-import "./index.css";
-import calculateWinner from "./calculateWinner";
+import calculateWinner from "./calculateWinner.jsx";
 import Square from "./Square.jsx";
 
 function Board({ xIsNext, squares, onPlay, playerNames }) {

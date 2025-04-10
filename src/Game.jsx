@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Board from "./Board.js";
-import MovesList from "./MovesList.js";
+import Board from "./Board.jsx";
+import MovesList from "./MovesList.jsx";
 
 export default function Game() {
   const [history, setHistory] = useState([Array(9).fill(null)]);

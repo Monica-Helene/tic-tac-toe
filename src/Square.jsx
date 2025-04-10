@@ -1,5 +1,3 @@
-import "./index.css";
-
 function getTitle(value) {
   switch(value) {
     case "X":
