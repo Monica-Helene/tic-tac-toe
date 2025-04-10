@@ -21,7 +21,9 @@
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "watch:css": "postcss -w src/css/input.css -o src/css/output.css"
+    "watch:css": "postcss -w src/css/input.css -o src/css/output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vitest": "^3.1.1"
   }
 }
