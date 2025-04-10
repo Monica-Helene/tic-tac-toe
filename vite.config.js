@@ -18,6 +18,8 @@ export default defineConfig ({
     	additionalData: `@import "src/components/global.scss";`
       }
     }
-  }
+  },
+  base: "/tic-tac-toe/"
+
 });
 
