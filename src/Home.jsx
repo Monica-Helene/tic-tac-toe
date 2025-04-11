@@ -1,5 +1,5 @@
+import Button from '@mui/material/Button';
 
-function Home () {
-
-}
-export default Home;
+export default function Home() {
+      return <Button variant="text">Nei</Button>;
+    }
